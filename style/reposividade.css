@@ -1,0 +1,30 @@
+@media screen and (max-width:700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 180px;
+        height: 40px;
+    }
+
+    header nav{
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao{
+        width: 50%;
+    }
+
+    .carrosel-livros .item img{
+        height: 360px;
+    }
+
+    .livro-principal{
+        height: 530px;
+    }
+}
